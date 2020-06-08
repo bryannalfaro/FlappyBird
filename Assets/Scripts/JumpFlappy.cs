@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
 
+
+/**
+ * Bryann Alfaro
+ * Referencia: Clases y videos de youtube
+ * Clase para controlar el salto del flappy
+ */
 public class JumpFlappy : MonoBehaviour
 {
     public manager manager;

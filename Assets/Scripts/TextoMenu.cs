@@ -4,18 +4,18 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/**
+ * Bryann Alfaro
+ * Referencia: Clases y videos de youtube
+ * Activar el menu al inicio del juego
+ * 
+ */
 public class TextoMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float time = 2.0f; //Seconds to read the text
+    public float time = 2.0f; 
     private float time1 = 1.0f;
     public GameObject readyText;
-    public GameObject flappy;
-    
-
-    
-    
-    
+    public GameObject flappy;   
 
     void Start()
     {
@@ -35,22 +35,5 @@ public class TextoMenu : MonoBehaviour
         readyText.gameObject.SetActive(false);
         flappy.gameObject.SetActive(true);
         Time.timeScale = 1;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-      
-
-    }
-
-    void ChangeText()
-    {
-       
-        
-
-    }
-
-    
+    }  
 }

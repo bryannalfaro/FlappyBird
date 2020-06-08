@@ -314,7 +314,6 @@ MonoBehaviour:
   time: 2
   readyText: {fileID: 226421678}
   flappy: {fileID: 1834505182}
-  pause: {fileID: 643550110}
 --- !u!1 &226421678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,7 +1477,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxTime: 3
-  pipe: {fileID: 3019556021716742297, guid: fc321eb1bc4a8f24d9931bfc2674d694, type: 3}
+  obstaculo: {fileID: 3019556021716742297, guid: fc321eb1bc4a8f24d9931bfc2674d694,
+    type: 3}
   height: 2
 --- !u!4 &1370822164
 Transform:
